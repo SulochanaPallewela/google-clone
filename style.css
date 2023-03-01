@@ -54,38 +54,49 @@ body{
 }
 /*body css*/
 
-.center-item{
-    width: 584px;
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 30px;
 }
-.logo{
-    width: 272px;
-    height: 92px;
-}
+/*search bar*/
 .search-bar{
     display: flex;
-    width: 584px;
-    height: 46px;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    background-color: rgb(255, 255,255);
-    box-shadow: 0 1px 6px rgba(233, 225, 229, 0);
+    justify-content: space-between;
+    align-items: center;
+    min-width: 280px;
+    width: 45%;
+    height: 45px;
+    border: 1px solid #e7e8eb;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin: 25px;
 }
-.lence{
-    margin-top: 11px;
-    margin-right: 15px;
-    width: 24px;
-    height: 24px;
+.search-bar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36/28%);
 }
-.input{
-    margin-left: 5px;
-    margin-top: 3px;
-    width: 483px;
-    height: 34px;
+.search-bar span{
+    width: 15px;
+    height: 15px;
+    color: #a5aab0;
 }
-.material-symbols-outlined{
-    margin-top: 11px;
-    margin-left: 15px;
+.search-bar input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
 }
+.search-bar img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/*switches*/
+/*languages*/
 
 /*footer*/
 footer{
