@@ -49,11 +49,11 @@ body{
     object-fit: cover;
 }
 .icons span{
-    justify-content: center;
     color: #5f6368;
     align-items: center;
 }
 /*body css*/
+
 .center-item{
     width: 584px;
 }
@@ -85,4 +85,33 @@ body{
 .material-symbols-outlined{
     margin-top: 11px;
     margin-left: 15px;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #6f6f6f;
+}
+.country{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.low-left a,.low-right a{
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 0 20px 0 0;
+}
+.low-left a:hover,.low-right a:hover{
+    text-decoration: underline;
 }
